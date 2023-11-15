@@ -6,8 +6,8 @@ import Chat from './components/Chat/Chat';
 const App = () => (
   <Router>
     <Routes>
-      <Route path="/" element={<Join/>}/>
-      <Route path="/chat" element={<Chat/>}/>
+      <Route path="/" element={<Join />}/>
+      <Route path="/chat" element={<Chat />}/>
     </Routes>
   </Router>
 );
